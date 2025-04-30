@@ -1,1 +1,26 @@
-/*# sourceMappingURL=styles.css.map */
+p {
+  color: #555;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 500px;
+  transition: transform 0.3s ease;
+}
+.main__card:hover {
+  transform: scale(1.05);
+}
+
+.modal__window {
+  background-color: rgba(42, 40, 40, 0.321);
+}/*# sourceMappingURL=styles.css.map */
