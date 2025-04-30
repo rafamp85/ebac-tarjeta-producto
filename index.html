@@ -17,6 +17,60 @@
     <title>Productos</title>
 </head>
 <body>
+    <main class="container main">
+        <h1>Renta de Casas</h1>
+        <section class="card main__card" style="width: 18rem;">
+            <img src="img/casa.jpg" alt="Casa 1" class="main__card__image">
+            <article class="card-body">
+                <h5 class="card-title">Casa de campo</h5>
+                <p class="card-text">Hermosa casa con vista al mar y servicios de lujo</p>
+                <a 
+                    href="#" 
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#houseDetails"
+                >
+                    Detalles
+                </a>
+            </article>
+        </section>
 
+        <section 
+            class="modal fade modal__window" 
+            id="houseDetails" 
+            tabindex="-1"
+            aria-labelledby="houseDetailsLabel"
+            aria-hidden="true"
+        >
+            <article class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="houseDetailsLabel">Casa Primavera</h2>
+                        <button 
+                            type="button" 
+                            class="btn-close" 
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        >
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Preciosa casa moderna con una excelente vista al mar. Contiene 5 recamaras
+                            una amplia sala-comedor para pasar unas maravillosas vacaciones.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-primary"
+                        >
+                            Comprar
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
